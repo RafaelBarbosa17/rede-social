@@ -1,0 +1,36 @@
+
+.Header {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: black;
+}
+
+h1.header-logo {
+    margin: 0px 10px;
+}
+
+a.header-link {
+    width: min-content;
+    height: 100%;
+}
+
+svg.header-icon {
+    width: 40px;
+    height: 40px;
+    padding: 2px;
+}
+
+.headers-buttons {
+    display: flex;
+    justify-content: space-around;
+    min-width: 30%;
+    align-items: center;
+    margin: 5px 5px 0px;
+}
