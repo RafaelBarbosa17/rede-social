@@ -1,0 +1,52 @@
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-box {
+    display: flex;
+    width: 90vw;
+    height: min-content;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+
+.img-container {
+    padding: 15px;
+    width: 100%;
+    height: 360px;
+}
+
+.img-item {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+    object-fit: cover;
+}
+
+.interactions {
+    display: flex;
+    justify-content: flex-start;
+    padding: 3px 1rem;
+    gap: 0.8rem;
+}
+
+.interactions div {
+    color: black;
+}
+
+.interactions div svg {
+    fill: black;
+    width: 25px;
+    height: 25px;
+}
+
+.interactions div svg.liked-icon{
+    fill: red;
+}
